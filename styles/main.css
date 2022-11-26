@@ -11,6 +11,7 @@ textarea {
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
+    background-color: rgb(224, 224, 198);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -33,3 +34,12 @@ h1,h2,h3,h4,h5,h6 {
 .red {
     background-color: darksalmon;
 }
+
+.messages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 3.5em;
+    margin: 25px 25px 25px 25px;
+}
+
